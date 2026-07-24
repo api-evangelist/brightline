@@ -1,0 +1,24 @@
+# Brightline
+
+> Brightline website built with Next.js 15 and SE Studio packages
+
+## Markdown access
+
+Append .md to any page URL for a markdown version. Pages: `/{slug}.md`; Articles: append .md to article URLs.
+
+## Key pages
+
+- [Home](https://www.brightline.com/index.md): Home page
+- [Sign up for mental health tips and resources | Brightline](https://www.brightline.com/learning-hub/stay-connected.md)
+- [Stephen Fox, PsyD | Brightline Pediatric Mental Health](https://www.brightline.com/providers/stephen-fox-psyd.md)
+- [Talking About Safety with Your Family | Brightline](https://www.brightline.com/safety.md)
+- [Refer patients to Brightline](https://www.brightline.com/partners/refer-a-patient.md)
+- [Lauren Moy, PhD | Brightline Pediatric Mental Health](https://www.brightline.com/providers/lauren-moy-phd.md)
+- [Understanding your child's anxiety — key questions to ask](https://www.brightline.com/learning-hub/blog/understanding-your-childs-anxiety-key-questions-to-ask.md)
+- [Why does my child worry so much?](https://www.brightline.com/learning-hub/blog/why-does-my-child-worry-so-much.md)
+- [Why can’t my child just go have fun?](https://www.brightline.com/learning-hub/blog/why-cant-my-child-just-go-have-fun.md)
+
+## Optional
+
+- [Markdown index](https://www.brightline.com/markdown-index.txt): Complete list of all pages available in markdown format
+- [Site information](https://www.brightline.com/site-info.md): Factual summary of site content (counts, lists) for support and AI

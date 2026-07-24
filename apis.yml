@@ -1,8 +1,13 @@
 aid: brightline
 name: Brightline
-description: 'Brightline is a company surfaced as a portfolio company of gv, threshold-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Brightline is an award-winning pediatric mental health practice delivering therapy,
+  psychiatry (including medication management), and psychological testing for children and adolescents
+  up to age 18, using an evidence-based, family-focused model that begins with a structured diagnostic
+  evaluation. It treats anxiety, OCD, ADHD, disruptive behavioral disorders, depression, trauma, grief,
+  and autism-spectrum symptoms via in-person clinics in New York and telehealth across NY, NJ, CT, MA,
+  and WA, and operates BrightLife Kids, a free California state-funded behavioral health program for
+  families with children up to age 12. Surfaced as a portfolio company of GV and Threshold Ventures;
+  Brightline is a consumer/clinical healthcare provider with no public developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/brightline/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,30 @@ x-backed-by:
 - threshold-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.brightline.com/og/84Q9YxMvuQ6ba4H9jHbOF.jpg
 tags:
 - Company
 - Life Sciences
+- Health
+- Mental Health
+- Pediatrics
+- Telehealth
+- Behavioral Health
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +48,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://hellobrightline.com
+  url: https://www.brightline.com
+- type: Blog
+  url: https://www.brightline.com/learning-hub/blog/
+- type: Pricing
+  url: https://www.brightline.com/pricing/self-pay/
+- type: Support
+  url: https://www.brightline.com/learning-hub/faqs/
+- type: Login
+  url: https://app.hellobrightline.com/
+- type: TermsOfService
+  url: https://www.brightline.com/policies-and-terms/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.brightline.com/policies-and-terms/privacy-policy/
+- type: LLMsTxt
+  url: llms/brightline-llms.txt
+- type: DomainSecurity
+  url: security/brightline-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
